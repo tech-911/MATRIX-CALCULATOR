@@ -20,4 +20,20 @@ button {
     inset 7px -21px 36px rgba(0, 0, 0, 0.5);
   border-radius: 500px;
   border: none;
+  transition: background 0.5s;
+}
+button:hover {
+  background: red;
+}
+input {
+  border: none;
+  padding: 7px;
+  margin: 7px;
+  width: 50px;
+  transition: width 0.5s background 0.5s;
+}
+input:hover {
+  width: 55px;
+  background: red;
+  
 }
